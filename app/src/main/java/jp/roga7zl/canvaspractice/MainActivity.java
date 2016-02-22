@@ -14,8 +14,8 @@ public class MainActivity extends AppCompatActivity {
 
         final WaveAnimationView logoView = (WaveAnimationView) findViewById(R.id.waveanimationview);
 
-        Button mIsMovingToggleButton = (Button) findViewById(R.id.togglebutton_ismoving);
-        mIsMovingToggleButton.setOnClickListener(new View.OnClickListener() {
+        Button startAnimationButton = (Button) findViewById(R.id.button_startanimation);
+        startAnimationButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 logoView.moveLogo();

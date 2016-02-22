@@ -9,9 +9,10 @@
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/togglebutton_ismoving"
+        android:id="@+id/button_startanimation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true" />
+        android:layout_alignParentBottom="true"
+        android:text="START ANIMATION" />
 
 </RelativeLayout>
